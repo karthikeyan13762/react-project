@@ -1,4 +1,4 @@
-function App(){
+const App=()=>{
   return (
 
     <p>Hello world</p>
