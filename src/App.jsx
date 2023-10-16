@@ -1,8 +1,23 @@
+const Hello=(props)=>{
+return(
+
+<p>Hello {props.name} your age is {props.age}</p>
+
+)
+
+}
+
 const App=()=>{
+  const age=25;
+
   return (
+
+    
     <div>
-      <h1>Headings - Multiple elements added</h1>
-    <p>Hello world</p>
+     <h1>Greatings</h1>
+     <Hello name="karthi" age ={age}/>
+     <Hello name="Karthikeyan" age ={age}/>
+
 
     </div>
 
