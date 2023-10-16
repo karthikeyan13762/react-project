@@ -1,6 +1,11 @@
 const App = ()=>{
+
+  console.log('Hello world part 2');
   return(
-    <p>Hello world 1</p>
+    <div>
+      <p>Hello world 2 paragraph inside div</p>
+    </div>
+   
 
   )
 }
