@@ -1,15 +1,21 @@
 import React from 'react'
 
-function App(props) {
-// const notes=props.notes;
-
-// console.log(notes);
-
-const {notes}=props
-console.log(notes);
-
+function App({notes}) {
   return (
-    <div>App</div>
+    <div>
+      
+     <h1>Notes</h1> 
+     <ul>
+
+      <li>{notes[0].content}</li>
+      <li>{notes[1].content}</li>
+      <li>{notes[2].content}</li>
+      <li>{notes[3].content}</li>
+      <li>{notes[4].content}</li>
+     </ul>
+
+
+    </div>
   )
 }
 
