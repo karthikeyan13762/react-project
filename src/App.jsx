@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Note from './components/Note'
 function App({notes}) {
   return (
     <div>
@@ -9,7 +9,7 @@ function App({notes}) {
       
       notes.map(note=>
         
-        <li key={note.id}>{note.content}</li>
+        <Note key={note.id} note={note}  />
         )
       
       }
