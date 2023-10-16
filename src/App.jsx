@@ -1,21 +1,16 @@
-import Hello from "./components/hello"
+import React from 'react'
 
+function App(props) {
+// const notes=props.notes;
 
-const App=()=>{
+// console.log(notes);
 
-  let age=25;
+const {notes}=props
+console.log(notes);
 
-
-  return(
-    <div>
-    <h1>Heading for Dob</h1>
-
-    <Hello name="Karthi" age={age} />
-    <Hello name="Karthikeyan" age={age} />
-
-    </div>
-    
-
+  return (
+    <div>App</div>
   )
 }
+
 export default App
