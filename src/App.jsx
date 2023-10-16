@@ -9,7 +9,7 @@ function App({notes}) {
       
       notes.map(note=>
         
-        <Note key={note.id} note={note}  />
+        <Note key={note.id} note={note}/>
         )
       
       }
