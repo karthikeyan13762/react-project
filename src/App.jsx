@@ -1,6 +1,13 @@
 import React from 'react'
 import Note from './components/Note'
 function App({notes}) {
+
+const addNote=(enent)=>{
+  enent.preventDefault()
+  console.log("Button clicked"+enent);
+}
+
+
   return (
     <div>
       
@@ -10,6 +17,7 @@ function App({notes}) {
       notes.map(note=>
         
         <Note key={note.id} note={note}/>
+       
         )
       
       }
@@ -17,8 +25,15 @@ function App({notes}) {
       
      </ul>
 
+    <form action="" method="get" onSubmit={addNote}>
+      <input type="text" />
+      <button type='submit'>Send</button>
+    </form>
+
 
     </div>
+
+    
   )
 }
 
