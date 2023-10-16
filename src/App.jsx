@@ -1,13 +1,17 @@
-const App = ()=>{
+function App(){
+  const newDate=new Date();
+  console.log(newDate);
 
-  console.log('Hello world part 2');
-  return(
+  return (
+
     <div>
-      <p>Hello world 2 paragraph inside div</p>
+
+      <p>Hello world it is {newDate.toString()}</p>
     </div>
-   
+
+
 
   )
-}
 
+}
 export default App
