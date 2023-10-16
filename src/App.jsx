@@ -1,17 +1,23 @@
-function App(){
-  const newDate=new Date();
-  
-  const a=369
+function Hello(){
+return(
+  <p>Hello world</p>
+)
+}
 
-  const b=700
+
+function App(){
+  
 
   return (
 
     <div>
+      <h1>Greetings</h1>
 
-      <p>Hello world it is {newDate.toString()}</p>
-
-      <p>{a}pluse{b} is {a+b}</p>
+      <Hello/> 
+      <Hello/>
+      <Hello/> 
+      <Hello/>
+      
     </div>
 
 
